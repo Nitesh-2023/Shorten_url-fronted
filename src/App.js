@@ -8,8 +8,8 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://shorten-url-backend-8rv1.onrender.com/shorten", { fullUrl });
-      setShortUrl(`https://shorten-url-backend-8rv1.onrender.com/${response.data.shortUrl}`);
+      const response = await axios.post("https://shorturl-k2vv.onrender.com/shorten", { fullUrl });
+      setShortUrl(`https://shorturl-k2vv.onrender.com/${response.data.shortUrl}`);
     } catch (error) {
       alert("Error shortening URL");
     }
