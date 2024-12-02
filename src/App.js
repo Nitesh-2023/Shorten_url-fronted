@@ -71,7 +71,7 @@ function App() {
   };
 
   const linkStyle = {
-    color: "#6E85B7",
+    color: "#28A745",  //Change the color
     textDecoration: "none",
     fontWeight: "bold",
   };
